@@ -25,3 +25,19 @@ body {
     justify-content: space-between;
     gap: 3em;
 }
+label {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #242e4c;
+}
+input {
+    display: block;
+    width: 100%;
+    font-size: 1.3em;
+    border: none;
+    color: #444b5f;
+    border-bottom: 1.5px solid #242e4c;
+    padding: 0.45em;
+    margin-top: 0.45em;
+    outline: none;
+}
