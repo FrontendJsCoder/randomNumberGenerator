@@ -16,8 +16,11 @@ function randomNum() {
         min.value = minValue;
         max.value = maxValue;
     }
+    //Variable to hold random min & max numbers
+    let num = Math.floor(Math.random()*(maxValue - minValue + 1)) + minValue;
+    document.getElementById('result').innerText = num;
 }
 
-//Event listeners
+//EventListeners
 window.addEventListener('load', randomNum())
 generateBtn.addEventListener('click', randomNum)
