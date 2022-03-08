@@ -44,15 +44,22 @@ input {
 input:focus {
     border-color: #f5a623;
 }
-button#generate {
+button#generate{
     display: block;
-    font-size: 100%;
+    width: 100%;
+    margin: 2.7em 0 1.1em 0;
     font-size: 1.1em;
-    margin: 2.7em 0 0 1.1em 0;
-    background-color: #f5a623; 
+    background-color: #f5a623;
+    color: #ffffff;
     padding: 0.8em 0;
     border: none;
     border-radius: 0.5em;
-    cursor: pointer
-    color #ffffff;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    font-size: 3.7em;
+    font-size: 600;
+    color: #242e4c;
 }
